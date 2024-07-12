@@ -34,7 +34,6 @@ router.get("/product/:id", (req, res) => {
 
 
 router.post("/product/NewProduct", (req, res) => {
-
     const { title, description, code, price, stock, category, thumbnails } = req.body
     console.log(code)
 
